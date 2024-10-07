@@ -11,5 +11,5 @@ function checkAnswer(){
     }
 }
 
-const submit = document.querySelector('#submit-answer')
+const submit = document.getElementById('submit-answer')
 submit.addEventListener('click',checkAnswer)
